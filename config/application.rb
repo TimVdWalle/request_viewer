@@ -19,6 +19,7 @@ omitted = %w(
   active_job/railtie
   rails/test_unit/railtie
   sprockets/railtie
+  action_cable/engine
 ).each do |railtie|
   begin
     require railtie
